@@ -1,0 +1,13 @@
+{
+  "name": "monorepo",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "yarn workspace @monorepo/client run build",
+    "start": "yarn workspace @monorepo/server run start",
+    "dev": "export $(cat .env | xargs) && yarn workspace @monorepo/server run dev"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

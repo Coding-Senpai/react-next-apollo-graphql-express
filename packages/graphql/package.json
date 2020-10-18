@@ -1,0 +1,16 @@
+{
+  "name": "@monorepo/graphql",
+  "version": "0.1.0",
+  "scripts": {
+    "generate": "graphql-codegen"
+  },
+  "dependencies": {
+    "apollo-server-express": "2.12.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.17.10",
+    "@graphql-codegen/typescript": "^1.17.10",
+    "@graphql-codegen/typescript-resolvers": "^1.17.10",
+    "prettier": "^2.1.2"
+  }
+}
